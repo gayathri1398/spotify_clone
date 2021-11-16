@@ -3,5 +3,7 @@
     bottom: 0px;
     border: 2px solid blue;
     width: 100%;
-    padding: 2px;
+    height: 65px;
+    padding: 20px;
+    background-color: #282828;
 }

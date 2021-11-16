@@ -37,9 +37,10 @@ function App() {
 
   return <>
     <div className="app">
-     {token? <Player spotify/>: (
+     {/* {token? <Player spotify/>: (
      <Login/>
-     )}
+     )} */}
+     <Player/>
     </div>
   
   </>

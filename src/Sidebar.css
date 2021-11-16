@@ -2,4 +2,10 @@
     border: 2px solid black;
     height: 100vh;
     flex: 0.2;
+    background-color: black;
+    color: white;
+}
+.sidebar > img{
+    transform: translate(50%,50%);
+    height: 40px;
 }
