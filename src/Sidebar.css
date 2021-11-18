@@ -5,7 +5,7 @@
     background-color: black;
     color: white;
 }
-.sidebar > img{
+.sidebar__logo {
     transform: translate(50%,50%);
     height: 40px;
 }
