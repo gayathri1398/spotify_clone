@@ -1,14 +1,19 @@
 import React from 'react';
 import './SidebarOptions.css';
-import Home from '@material-ui/icons/Home'
+import Home from '@material-ui/icons/Home';
+import SearchIcon from '@mui/icons-material/Search';
+import LibraryAddCheckIcon from '@mui/icons-material/LibraryAddCheck';
 
-const SidebarOptions=({title,Icon})=>{
+
+const SidebarOptions=()=>{
   return <>
   <div className="SidebarOptions">
-      <p Icon={Home}>Home</p>
-      <p>Search</p>
-      <p>Your Library</p>
+      <p className="sidebar__icons"><Home/>Home</p>
+      <p className="sidebar__icons"><SearchIcon/>Search</p>
+      <p className="sidebar__icons"><LibraryAddCheckIcon/>Library</p>
+      <hr />
   </div>
+
   </>
 }
 
