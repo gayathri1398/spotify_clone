@@ -5,17 +5,17 @@
     font-size: 15px;
     height: 35px;
     cursor: pointer;
-
+    padding-left: 10px;
 }
+
 .SidebarOptions:hover{
-  color: white;
+    color: white;
 }
 
 .sidebar__icons{
     display: flex;
     gap: 10px;
     align-items: center;
-    padding-left: 10px;
     padding-right: 10px; 
 }
 

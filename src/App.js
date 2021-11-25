@@ -30,6 +30,15 @@ function App() {
           user:user
         })
       } )
+
+      spotify.getUserPlaylists().then((playlists)=>{
+        console.log(playlists)
+
+        dispatch({
+          type:"SET_PLAYLIST",
+          playlists:playlists
+        })
+      })
     }
     console.log("Yoy!!!",token)
   },[])
@@ -37,10 +46,10 @@ function App() {
 
   return <>
     <div className="app">
-     {/* {token? <Player spotify/>: (
+     {token? <Player spotify/>: (
      <Login/>
-     )} */}
-     <Player/>
+     )}
+     {/* <Player/> */}
     </div>
   
   </>
