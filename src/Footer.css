@@ -7,12 +7,14 @@
     background-color: #282828;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .footer__left{
+   /* flex: 0.3; */
    display: flex;
    align-items: center;
    color: white;
+   width: 300px;
 }
 
 .footer__left > img{
@@ -25,11 +27,24 @@
 .footer__center{
    color: rgb(161, 158, 158);
    display: flex;
+   flex: 0.4;
    flex-direction: row;
    align-items: center;
-   gap: 12px;
+   /* gap: 12px; */
+   justify-content: space-around;
 }
 
 .footer__play{
    color: white;
+   
+}
+.footer__play:hover{
+   transform: scale(1.1);
+   transition-timing-function: ease-in-out;
+   transition-delay: 1s;
+   cursor: pointer;
+}
+
+.footer__right{
+flex: 0.3;
 }

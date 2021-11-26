@@ -4,7 +4,9 @@ import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
 import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled';
 import SkipNextIcon from '@material-ui/icons/SkipNext';
 import RepeatIcon from '@material-ui/icons/Repeat';
-
+import PlaylistPlayIcon from '@material-ui/icons/PlaylistPlay'
+import VolumeDownIcon from '@material-ui/icons/VolumeDown'
+import {Slider,Grid} from '@material-ui/core'
 // css 
 import './Footer.css'
 
@@ -28,7 +30,19 @@ const Footer =()=>{
 
     </div>
     <div className="footer__right">
-        <p>volume</p>
+    <div className="footer__right">
+        <Grid container spacing={2}>
+          <Grid item>
+            <PlaylistPlayIcon />
+          </Grid>
+          <Grid item>
+            <VolumeDownIcon />
+          </Grid>
+          <Grid item xs>
+            <Slider aria-labelledby="continuous-slider" />
+          </Grid>
+        </Grid>
+      </div>
     </div>
     </div>
     </>
