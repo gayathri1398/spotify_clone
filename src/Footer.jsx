@@ -1,4 +1,11 @@
 import React from 'react';
+import ShuffleIcon from '@material-ui/icons/Shuffle';
+import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
+import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled';
+import SkipNextIcon from '@material-ui/icons/SkipNext';
+import RepeatIcon from '@material-ui/icons/Repeat';
+
+// css 
 import './Footer.css'
 
 const Footer =()=>{
@@ -13,6 +20,11 @@ const Footer =()=>{
         </div>
     </div>
     <div className="footer__center">
+       <ShuffleIcon className="footer__green"/>
+       <SkipPreviousIcon/>
+       <PlayCircleFilledIcon fontSize="large" className="footer__play"/>
+       <SkipNextIcon/>
+       <RepeatIcon/>
 
     </div>
     <div className="footer__right">

@@ -7,7 +7,7 @@
     background-color: #282828;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .footer__left{
    display: flex;
@@ -21,6 +21,15 @@
    padding-right: 10px;
 }
 
-.footer__details{
-  
+
+.footer__center{
+   color: rgb(161, 158, 158);
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 12px;
+}
+
+.footer__play{
+   color: white;
 }
