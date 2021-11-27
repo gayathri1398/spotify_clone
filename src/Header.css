@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header__search{
+   display: flex;
+   align-items: center;
+   background-color: white;
+   border-radius: 20px;
+   width: 35%;
+   padding: 6px;
+   color: grey;
+   gap: 8px;
+  
+}
+.header__input{
+    width: 100%;
+ 
+}
+.header__input>input{
+    width: 100%;
+    border: none;
+    outline: none;
+    
+}
+
+.header__avatar__info{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
