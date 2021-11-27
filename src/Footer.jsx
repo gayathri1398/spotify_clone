@@ -30,7 +30,6 @@ const Footer =()=>{
 
     </div>
     <div className="footer__right">
-    <div className="footer__right">
         <Grid container spacing={2}>
           <Grid item>
             <PlaylistPlayIcon />
@@ -44,7 +43,7 @@ const Footer =()=>{
         </Grid>
       </div>
     </div>
-    </div>
+ 
     </>
     )
 }

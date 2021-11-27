@@ -1,4 +1,5 @@
 .footer{
+   
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -47,4 +48,5 @@
 
 .footer__right{
 flex: 0.3;
+color: white;
 }
