@@ -13,11 +13,15 @@ return <>
             </div>
   </div>
     <div className="header__avatar__info">
-            <Avatar
-            alt="Remy Sharp"
-            src="/static/images/avatar/1.jpg"
-            sx={{ width: 56, height: 56 }}
-        />
+    <Avatar
+    alt="Remy Sharp"
+    src="/static/images/avatar/1.jpg"
+    style={{
+       
+        width: "30px",
+        height: "30px",
+      }} 
+    />
     <h3>Gayathri</h3>
     </div>
 
