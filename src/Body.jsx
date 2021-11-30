@@ -11,7 +11,7 @@ import Header from './Header';
 const Body = ({spotify}) => {
   const[{discover_weekly},dispatch] = useDataLayerValue();
   console.log(discover_weekly);
-  
+
     return (
         <div className="body">
            <div className="body__header">
@@ -20,7 +20,7 @@ const Body = ({spotify}) => {
                 <img src={discover_weekly?.images[0].url }
                   alt="discover weekly" />
                 <div className="body__banner__info">
-                  <p>PLAYLISTS</p>
+                   <strong>PLAYLISTS</strong>
                   <h1>{discover_weekly?.name}</h1>
                   <p> {discover_weekly?.description}</p>
                 </div>
