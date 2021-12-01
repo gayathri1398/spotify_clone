@@ -3,6 +3,7 @@ import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import DownloadIcon from '@mui/icons-material/Download';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import { useDataLayerValue } from './DataLayer';
+import SongRow from './Songrow'
 import './Body.css';
 
 // components
@@ -25,12 +26,21 @@ const Body = ({spotify}) => {
                   <p> {discover_weekly?.description}</p>
                 </div>
              </div>
-           </div>
+         
       
            <div className="body__icons">
              <PlayCircleIcon fontSize="large"/>
              <DownloadIcon/>
              <MoreHorizIcon/>
+           </div>
+           
+           <div className="body_songrow">
+             {discover_weekly?.tracks.items.map((item)=>(
+                 <SongRow {...item}/>
+             ))}
+          
+          
+           </div>
            </div>
         </div>
     )
