@@ -26,13 +26,20 @@
 .body__banner__info{
     padding-left: 12px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .body__banner__info>h1{
-    font-size: 55px;
+    font-size: 65px;
+    margin-block-start: 0px;
+    margin-block-end: 12px;
 }
 .body__banner__info>p{
     font-size: 15px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 .body__icons{

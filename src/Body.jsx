@@ -21,7 +21,7 @@ const Body = ({spotify}) => {
                 <img src={discover_weekly?.images[0].url }
                   alt="discover weekly" />
                 <div className="body__banner__info">
-                   <strong>PLAYLISTS</strong>
+                   <strong className="banner__strong">PLAYLISTS</strong>
                   <h1>{discover_weekly?.name}</h1>
                   <p> {discover_weekly?.description}</p>
                 </div>
