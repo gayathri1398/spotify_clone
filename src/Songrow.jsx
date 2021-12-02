@@ -8,7 +8,7 @@ const SongRow=({track})=>{
         alt="song poster" />
       <div className="song_row_details">
           <h5>{track.name}</h5>
-          <p>{track.artists.map((artist)=> artist.name)}</p>
+          <p>{track.artists.map((artist)=> artist.name).join(", ")}</p>
       </div>
     </div>
     </>
